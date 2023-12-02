@@ -16,8 +16,7 @@ const Demoserv1 = () => {
                     {/* <!-- Single Item --> */}
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-pen-fancy"></i>
-                            <h4>Project creation</h4>
+                        <i class="bi bi-tools"></i>                            <h4>Project creation</h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                             </p>
@@ -28,8 +27,7 @@ const Demoserv1 = () => {
                     {/* <!-- Single Item --> */}
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-dharmachakra"></i>
-                            <h4>Software Development</h4>
+                        <i class="bi bi-tools"></i>                            <h4>Software Development</h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                             </p>
@@ -40,8 +38,7 @@ const Demoserv1 = () => {
                     {/* <!-- Single Item --> */}
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-tasks"></i>
-                            <h4>Porject Management</h4>
+                        <i class="bi bi-tools"></i>                            <h4>Porject Management</h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                             </p>
@@ -52,8 +49,7 @@ const Demoserv1 = () => {
                     {/* <!-- Single Item --> */}
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-tachometer-alt"></i>
-                            <h4>Porject Impliment</h4>
+                        <i class="bi bi-tools"></i>                            <h4>Porject Impliment</h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                             </p>
@@ -64,8 +60,7 @@ const Demoserv1 = () => {
                     {/* <!-- Single Item --> */}
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-recycle"></i>
-                            <h4>Software Update</h4>
+                        <i class="bi bi-tools"></i>                            <h4>Software Update</h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                             </p>
@@ -76,8 +71,7 @@ const Demoserv1 = () => {
                     {/* <!-- Single Item --> */}
                     <div class="col-md-4 col-sm-6 equal-height">
                         <div class="item">
-                            <i class="fas fa-headset"></i>
-                            <h4>24/7 Support</h4>
+                        <i class="bi bi-tools"></i>                            <h4>24/7 Support</h4>
                             <p>
                                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                             </p>

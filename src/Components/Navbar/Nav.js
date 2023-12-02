@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./navbar.css";
+import styles from "./Nav.module.css";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { FaWhatsapp, FaLinkedin } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
@@ -7,18 +7,16 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   const [showMediaIcon, setshowMediaIcon] = useState(false);
   return (
-    <nav className="main-nav">
+    <nav className={styles["main-nav"]}>
       {/* logo section */}
-      <div className="logo">
-        <h2>
+      <div className={styles.logo}>
+                <h2>
           <span>P</span>CD
           <span>C</span>onsultancy
         </h2>
       </div>
       {/* menu */}
-      <div
-        className={showMediaIcon ? "menu-link mobile-menu-link" : "menu-link"}
-      >
+      <div className={showMediaIcon ? `${styles["menu-link"]} ${styles["mobile-menu-link"]}` : styles["menu-link"]}>
         <ul>
           <li>
             <NavLink to="/">Home</NavLink>
@@ -35,19 +33,19 @@ const Nav = () => {
         </ul>
       </div>
       {/* socials */}
-      <div className="social-media">
-        <ul className="social-media-desktop">
+      <div className={styles["social-media"]}>
+        <ul className={styles["social-media-desktop"]}>
           <li>
             <a
               href="https://www.linkedin.com/company/pcd-consultancy-services/"
               target="blank"
             >
-              <FaLinkedin className="linkedin" />
+              <FaLinkedin className={styles.linkedin} />
             </a>
           </li>
           <li>
             <a href="https://wa.me/+918779392536" target="blank">
-              <FaWhatsapp className="whatsapp" />
+              <FaWhatsapp className={styles.whatsapp} />
             </a>
           </li>
         </ul>

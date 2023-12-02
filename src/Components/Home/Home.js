@@ -104,7 +104,7 @@ const Home = () => {
       <Whyus/>
       <OurServices/>
       <Demo2/>
-      <Demoserv1/>
+    <Demoserv1/>
       <HowWeWork/>
       
 
