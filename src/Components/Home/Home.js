@@ -105,7 +105,7 @@ const Home = () => {
       <OurServices/>
       <Demo2/>
       <Demoserv1/>
-      {/* <HowWeWork/> */}
+      <HowWeWork/>
       
 
       
