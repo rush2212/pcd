@@ -14,6 +14,8 @@ import HowWeWork from "./HowWeWork/HowWeWork";
 import Tech from "./TechStack/Tech";
 import Cloud from "./TechStack/cloud";
 import T1_demo from "./TechStack/T1.js";
+import Contact from "./Contact/Contact.js";
+import Footer from "../Footer/Footer.js";
 const Home = () => {
   return (
     <>
@@ -112,7 +114,8 @@ const Home = () => {
       <Tech/>
       <Cloud/>
       <T1_demo/>
-      
+      <Contact/>
+      <Footer/>
 
       
     </>
