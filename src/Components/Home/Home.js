@@ -12,6 +12,7 @@ import Demoserv1 from "./OurServices_Section/demoserv1";
 import Demo2 from "./OurServices_Section/Demo2";
 import HowWeWork from "./HowWeWork/HowWeWork";
 import Tech from "./TechStack/Tech";
+import Cloud from "./TechStack/cloud";
 const Home = () => {
   return (
     <>
@@ -108,6 +109,7 @@ const Home = () => {
     <Demoserv1/>
       <HowWeWork/>
       <Tech/>
+      <Cloud/>
       
 
       

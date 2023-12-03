@@ -1,0 +1,16 @@
+.cloud-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tag-chip-container {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tag-chip {
+    margin: 5px;
+  }
+  
